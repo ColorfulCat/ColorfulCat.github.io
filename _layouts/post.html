@@ -48,15 +48,13 @@
           <span class="author vcard"><span class="fn">{{ site.owner.name }}</span></span>{% endif %}
           {% if page.share != false %}{% include social-share.html %}{% endif %}
         </footer>
+
+        <!-- 多说评论框 start -->
+        {% if page.comments != false %} <div style="margin:20px"><div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="{{ page.url }}"></div></div>{% endif %}
+        <!-- 多说评论框 end -->
+
       </div><!-- /.entry-content -->
-
-      
       {% if site.related_posts.size > 0 %}{% include read-more.html %}{% endif %}
-
-      <!-- 多说评论框 start -->
-      {% if page.comments != false %} <div style="margin:20px"><div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="{{ page.url }}"></div></div>{% endif %}
-      <!-- 多说评论框 end -->
-
 
     </article>
     
