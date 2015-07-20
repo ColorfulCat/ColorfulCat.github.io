@@ -50,12 +50,13 @@
         </footer>
       </div><!-- /.entry-content -->
 
-      <!-- 多说评论框 start -->
-      {% if page.comments != false %} <div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="{{ page.url }}"></div>{% endif %}
-      <!-- 多说评论框 end -->
-
+      
       {% if site.related_posts.size > 0 %}{% include read-more.html %}{% endif %}
     </article>
+    <!-- 多说评论框 start -->
+    {% if page.comments != false %} <div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="{{ page.url }}"></div>{% endif %}
+    <!-- 多说评论框 end -->
+
   </div><!-- /#main -->
 
   <div class="footer-wrapper">
