@@ -6,7 +6,7 @@ modified: 2015-07-22
 tags: [装B指南]
 comments: true
 image:
-  feature: android_toys.jpg
+  feature: bg_post2.jpg
 ---
 
  
