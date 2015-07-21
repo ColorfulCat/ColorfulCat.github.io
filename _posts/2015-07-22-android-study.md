@@ -6,11 +6,12 @@ modified: 2015-07-22
 tags: [装B指南]
 comments: true
 image:
-  feature: bg_post2.jpg
+  feature: android_toys.jpg
 ---
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
 #Android-装B指南（持续更新ing……）
+（这篇博文是收集整理一些Android开发相关的资料、博客、新闻等等内容，多看看即可随时随地想装B就装B~）
 
 ###新手出门撒钱篇：
 	1.
