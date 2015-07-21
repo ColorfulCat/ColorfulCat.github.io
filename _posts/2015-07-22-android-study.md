@@ -9,9 +9,11 @@ image:
   feature: android_toys.jpg
 ---
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+ 
+
 #Android开发-装B指南（持续更新ing……）
-（这篇博文是收集整理一些Android学习过程的一些要点，以及开发相关的资料、博客、新闻等等内容，多看看即可随时随地想装B就装B~）
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; （这篇博文是收集整理一些Android学习过程的一些要点，以及开发相关的资料、博客、新闻等等内容，多看看即可随时随地想装B就装B~）
 
 ###新手入门起步篇：
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
