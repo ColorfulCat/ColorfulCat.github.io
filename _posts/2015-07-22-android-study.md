@@ -3,7 +3,7 @@ layout: post
 title: Android装B指南
 description: "警察蜀黍，这里有人装B，已经有观众被亮瞎了~~~"
 modified: 2015-07-22
-tags: [装B指南]
+tags: [装B指南, Android]
 comments: true
 image:
   feature: bg_post2.jpg
