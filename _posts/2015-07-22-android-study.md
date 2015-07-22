@@ -10,8 +10,6 @@ image:
 ---
 
  
-
-
 #Android开发-装B指南（持续更新ing……）
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; （这篇博文是收集整理一些Android学习过程的一些要点，以及开发相关的资料、博客、新闻等等内容，多看看即可随时随地想装B就装B~）
@@ -33,7 +31,7 @@ image:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（2）开源代码：**[Github](https://github.com/)** 程序员眼中的facebook，绝大部分的开源项目都托管在这上面。类似的还有[Bitbucket](https://bitbucket.org/)、国内的[GitCafe](https://gitcafe.com/)等~~~ 也有一些人专门收集整理一些比较优秀的Android开源代码：[23Code](http://www.23code.com/)这个我比较喜欢，都是优秀的demo，有图有真相~ 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（3）
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（3）未完待续……
 
 ###开发进阶升级篇：
 
