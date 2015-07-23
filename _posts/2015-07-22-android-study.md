@@ -16,6 +16,12 @@ image:
 
 ###新手入门起步篇：
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.**基础知识**：
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（1）前身：2003年10月，Andy Rubin等人一起创办了Android公司。2005年8月被谷歌收购，并让Andy Rubin继续负责Android项目。2008年谷歌推出了Android系统的第一个版本。
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（2）系统：Android系统是基于Linux开发的，应用层用JAVA语言开发，底层用C++语言开发。开源，以至于现在泛滥的碎片化问题困扰很多开发者。
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.**电脑**：作为一个Android开发者，你得有一台牛逼哄哄的电脑，用macbook的同学们可以四处装逼，当然用windows的同学也别失落，这只是工具，能玩转各种电脑游戏才是真谛 ^ 0 ^ .（开个玩笑，电脑只要不要太低配就行了，尽量不要以‘为了开发’而找借口去买新电脑哦~）
 	
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.**手机**：作为一个Android开发者，你没个安卓手机刷刷好像有点说不过去吧？土豪只用iPhone6Plus？好吧，那也别用SDK自带的官方模拟器了，略坑，可以用用第三方的**[Genymotion](https://www.genymotion.com/  "a Safari extension")** ,速度快很多~ 回过来说，如果公司需要购买测试机，建议至少有一台谷歌亲儿子Nexus5必备，小米和魅族要有，华为三星等可选。
