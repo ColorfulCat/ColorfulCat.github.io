@@ -4,6 +4,7 @@ title: 关于我
 image:
   feature: abstract-5.jpg
 comments: true
+share: false
 modified: 2015-07-20
 ---
 
