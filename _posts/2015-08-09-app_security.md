@@ -13,7 +13,15 @@ share: true
 
 		WhatsApp引出的隐私泄漏风险
 
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;去年（14年）3月份被Facebook收购的WhatsApp可谓是不太平。安全服务厂商DoubleThink公司14年3月13号称，Android版WhatsApp中存在加密漏洞，允许另一应用访问并读取所有用户的聊天记录。尽管WhatsApp对Android版本进行了大的更新，但该漏洞仍然存在。导致漏洞的是因为Android版的WhatsApp聊天记录被存储在手机上的SD卡内，只要用户授权其他应用访问这些数据，这些聊天记录即可被任何Android应用读取。
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;去年（14年）3月份被Facebook收购的WhatsApp可谓是不太平。安全服务厂商DoubleThink公司
+
+		14年3月13号称，Android版WhatsApp中存在加密漏洞，允许另一应用访问并读取所有用户的聊天记录。尽管WhatsApp对Android版本进行了大的更新
+
+		，但该漏洞仍然存在。导致漏洞的是因为Android版的WhatsApp聊天记录被存储在手机上的SD卡内，只要用户授权其他应用访问这些数据，这些聊天记录
+
+		即可被任何Android应用读取。
+
+		
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Android的SD卡存储在 /sdcard 目录，仔细观察该目录权限设置，发现SD卡权限是777，也就是说，任何APP都可以读取其他APP保存在SD卡的文件。联系到前文说到恶意软件那么多，保存在SD卡的用户敏感文件就很危险了。
 
