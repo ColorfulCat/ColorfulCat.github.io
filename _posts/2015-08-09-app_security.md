@@ -42,4 +42,4 @@ share: true
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;准备下一篇文章来写这个[**IOCipher**](https://guardianproject.info/code/iocipher/)，敬请期待~~~
 
-***未完待续~~~***
+ 
