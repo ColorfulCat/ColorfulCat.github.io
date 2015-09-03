@@ -3,7 +3,7 @@ layout: post
 title: APP安全预警
 description: "警报！前方高能！有人在说APP的安全问题，其实他就是在装B~~~"
 modified: 2015-08-09
-tags: [Android APP]
+categories: security
 comments: true
 share: true
 
