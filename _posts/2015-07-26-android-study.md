@@ -1,13 +1,9 @@
 ---
 layout: post
 title: Android装B指南
-description: "警察蜀黍，这里有人装B，已经有观众被亮瞎了~~~"
-modified: 2015-07-26
+excerpt: "警察蜀黍，这里有人装B，已经有观众被亮瞎了~~~"
+date: 2015-07-26 12:34:56
 categories: Android
-comments: true
-share: true
-image:
-  feature: bg_post2.jpg
 ---
 
  
