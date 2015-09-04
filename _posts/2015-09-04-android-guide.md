@@ -1,12 +1,9 @@
 ---
 layout: post
 title: Android书签网
-description: "Android开发资源导航神器"
-modified: 2015-09-04
+excerpt: "Android开发资源导航神器"
+date: 2015-09-04 12:34:56
 categories: Android
-comments: true
-share: true
-
 ---
 
 * content
