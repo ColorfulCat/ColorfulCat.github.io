@@ -1,8 +1,8 @@
 ---
 layout: post
-title: IOCipher--虚拟文件磁盘的介绍和使用
-description: "APP的数据文件安全存储神器--IOCipher"
-modified: 2015-08-16
+title: Android书签网
+description: "Android开发资源导航神器"
+modified: 2015-09-04
 categories: Android
 comments: true
 share: true
@@ -12,86 +12,173 @@ share: true
 * content
 {:toc}
 
-
-###概述
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 上一篇文章说到了APP的数据信息安全问题，接下来给大家介绍一个Android开发中可以用到的一个保护隐私数据的神器--IOCipher。它有别于那些对文件或字符串内容进行操作的加密方式，而是直接将文件的存放路径空间进行加密，别人无法找到存放的文件，更别说破解文件内容了。
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ***IOCipher: 虚拟加密磁盘***
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IOCipher可以为Android的APP提供一个虚拟的加密文件磁盘，而这一切并无需Android设备的ROOT权限。它采用的是一套标准的java.io API库，用以对文件进行操作，所以JAVA开发者已经可以上手使用它了。使用操作仅需要对密码进行管理操作，以及打开介于开发者和加密的存储空间之间的通道。IOCipher是基于*[SQLCipher](http://sqlcipher.net/)*而来的，并且目前正被*[CacheWord](https://github.com/guardianproject/IOCipher)*项目用来设计处理秘钥和密码的解决方案。
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IOCipher的操作方式归根结底是基于SQLite的数据处理的，这意味着它在一般的场景中不需要被专门安装。在完成文件加密的操作之后就不会对外开放，它的每一次读写操作都包含了在SQLite中的数据处理，因此，如果在人为或者异常退出APP时，SQLite中的数据处理可以防止整个文件系统被影响和破坏，这一点在Android这个随时可能关闭Activity和Service的操作系统中尤为重要，可以避免文件损坏和数据丢失。
-
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IOCipher说起来应该是*[SQLCipher-for-Android](https://www.zetetic.net/sqlcipher/sqlcipher-for-android/)*的表兄弟，因为它们都是基于SQLCipher的，而且同样都是在开发者都熟知的API之上进行改进的。IOCipher的核心建立在libsqlfs之上，libsqlfs是一个实现在SQL中的文件系统的FUSE API（我也不清楚这个是什么玩意儿！%>_<%）。
  
+## AndroidCat
+##### Android开发相关的网址导航 (*排名顺序不分先后*)
 
-###特征
+希望有其它好资源的小伙伴帮忙一起分享一下~  
 
-1. 安全、透明化、应用层级别的虚拟加密磁盘
 
-2. 无需Android设备的ROOT权限
+---
 
-3. 只需要了解三个方法即可使用： VirtualFileSystem.get(), VirtualFileSystem.mount(dbFile, password), 和 VirtualFileSystem.unmount()
+### 1. 资源文档
+- [AndroidDevTools](http://www.androiddevtools.cn/) 
+- [Android官方文档](http://developer.android.com/intl/zh-cn/develop/index.html)
+- [AndroidAPI中文翻译](http://www.cnblogs.com/over140/category/277077.html)
+- [Android Developers Blog](http://android-developers.blogspot.com/)
+- [Android官方培训课程中文版](http://hukai.me/android-training-course-in-chinese/)
+- [CodePath Android Cliffnotes](http://guides.codepath.com/android)
+- [codota](http://www.codota.com/)
+- [Careercup面试题大全](http://www.careercup.com/)
 
-4. 最低可支持Android 2.1操作系统
+---
 
-5. 证书基于LGPL v3+ （这个我也不是很懂，想了解的去搜索一下吧~）
+### 2. 技术社区
+- [eoe Android社区](http://www.eoeandroid.com/)
+- [APKBUS安卓巴士](http://www.apkbus.com/)
+- [开源中国社区](http://www.oschina.net/android/)
+- [中国谷歌开发者社区](http://www.chinagdg.com/forum-36-1.html)
+- [stackoverflow](http://stackoverflow.com/)
+- [CSDN](http://www.csdn.net/)
+- [安卓开发者社区](http://www.juapk.com/)
+- [V2EX](http://www.v2ex.com/go/android)
+- [51CTO技术论坛](http://bbs.51cto.com/forum-291-1.html)
+- [干货集中营](http://gank.io/)
+- [掘金](http://gold.xitu.io/#/entries/browse/android)
+- [SegmentFault](http://segmentfault.com/)
+
+---
+
+### 3. 技术教程
+- [codeKK](http://codekk.com/open-source-project-analysis)
+- [开发技术前线](http://www.devtf.cn/?cat=2)
+- [美团技术团队](http://tech.meituan.com/)
+- [阿里核心系统团队博客](http://csrd.aliapp.com/)
+- [Facebook技术](https://code.facebook.com/)
+- [OPEN开发经验库](http://www.open-open.com/lib/list/177)
+- [AndroidWeekly](http://www.androidweekly.cn/)
+- [移动APP整体策划](http://geek.csdn.net/news/detail/38125)
+- [极客学院](http://www.jikexueyuan.com/course/android/)
+- [慕课网](http://www.imooc.com/course/list?c=android)
+- [麦子学院](http://www.maiziedu.com/course/android/)
+- [Android学习网](http://android-study.com/)
+- [爱编程](http://www.w2bc.com/)
+- [Mars的Android开发视频教程](http://mars.apkbus.com/)
+- [老罗的Android开发视频教程](http://luo.apkbus.com/)
+
+---
+
+### 4. 开源代码
+- [23Code](http://www.23code.com/)
+- [泡在网上的日子](http://www.jcodecraeer.com/)
+- [GitHub优秀开源项目](http://blog.csdn.net/shulianghan/article/details/18046021)
+- [代码家](http://blog.daimajia.com/android-library-collection/)
+- [Code4App](http://a.code4app.com/category)
+- [IT蓝豹](http://www.itlanbao.com/)
+- [Square Open Source](http://square.github.io/#android)
+- [腾讯开源](http://code.tencent.com/index.html)
+- [android-open-project](https://github.com/Trinea/android-open-project)
+- [Android Arsenal](https://android-arsenal.com/free)
+- [APKBUS源码](http://www.apkbus.com/plugin.php?id=codesrc&modo=all&fid=388)
+
+
+---
+
+### 5. 大神博客
+- [Trinea](http://www.trinea.cn/)
+- [张鸿洋](http://blog.csdn.net/lmj623565791)
+- [任玉刚](http://blog.csdn.net/singwhatiwanna/)
+- [郭霖](http://blog.csdn.net/guolin_blog/)
+- [夏安明](http://blog.csdn.net/xiaanming/)
+- [爱哥](http://blog.csdn.net/aigestudio/)
+- [傲慢的上校](http://blog.csdn.net/lilu_leo/)
+- [胡凯](http://hukai.me/)
+- [谦虚的天下](http://www.cnblogs.com/qianxudetianxia/)
+- [兰亭风雨](http://blog.csdn.net/ns_code)
+- [Mr.Simple](http://blog.csdn.net/bboyfeiyu)
+- [罗升阳](http://blog.csdn.net/luoshengyang/)
+- [邓凡平](http://www.cnblogs.com/innost/)
+- [Race604](http://www.race604.com/)
+- [stormzhang](http://stormzhang.com/)
+- [徐宜生](http://blog.csdn.net/eclipsexys)
+- [阮一峰](http://www.ruanyifeng.com/blog/)
+- [DK](http://dk-exp.com/archives/page/2/)
+
+---
+
+### 6. 开发框架
+- [xUtils（快速）](https://github.com/wyouflf/xUtils)
+- [Afinal（快速）](https://github.com/yangfuhai/afinal)
+- [Apkplug（模块化）](http://www.apkplug.com/)
+- [ThinkAndroid（快速）](https://github.com/white-cat/ThinkAndroid)
+- [KJFrameForAndroid（快速）](http://git.oschina.net/kymjs/KJFrameForAndroid)
+- [LoonAndroid(快速)](https://github.com/gdpancheng/LoonAndroid)
+- [androidannotations（快速）](https://github.com/excilys/androidannotations/wiki)
+- [AndroidFine（快速）](https://github.com/tianshaojie/AndroidFine)
+- [Cordova（H5跨平台）](http://cordova.apache.org/)
+- [HBuilder（H5跨平台）](http://www.dcloud.io/)
+- [AppCan（H5跨平台）](http://www.appcan.cn/)
+- [APICloud（H5模块化跨平台）](http://www.apicloud.com/)
+- [CJFrameForAndroid（插件化）](https://github.com/kymjs/CJFrameForAndroid)
+- [DroidPlugin（插件化）](https://github.com/Qihoo360/DroidPlugin)
+- [Universal-Image-Loader（图片）](https://github.com/nostra13/Android-Universal-Image-Loader)
+- [Fresco（图片）](http://www.fresco-cn.org/)
+- [okhttp（网络请求）](http://square.github.io/okhttp/)
+- [Volley（网络请求）](http://blog.csdn.net/guolin_blog/article/details/17482095)
+- [Netroid（网络请求）](http://www.open-open.com/lib/view/open1402825446810.html)
+- [android-async-http（网络请求）](https://github.com/loopj/android-async-http)
+- [greenDao（数据库）](http://greendao-orm.com/)
+- [Lite Orm（数据库）](https://github.com/litesuits/android-lite-orm)
+- [ActiveAndroid（数据库）](https://github.com/pardom/ActiveAndroid)
+
+
+---
+
+### 7. 技术资讯
+- [创业邦](http://www.cyzone.cn/)
+- [36氪](http://36kr.com/)
+- [品玩PingWest](http://www.pingwest.com/)
+- [CSDN Android资讯](http://www.csdn.net/tag/android/news)
+- [极客范](http://www.geekfan.net/category/android-2/)
+- [动点科技](http://cn.technode.com/)
+- [前端里](http://www.yyyweb.com/mobile)
+- [好东西论坛](http://forum.memect.com/)
+- [DEMO8](http://www.demo8.com/)
+
+---
+
+### 8. 开发服务
+- [友盟SDK](http://www.umeng.com/)
+- [DevStore开发商店](http://www.devstore.cn/)
+- [ShareSDK](http://www.mob.com/#/index)
+- [LeanCloud云服务](https://leancloud.cn/)
+- [Bmob后端云服务](http://www.bmob.cn/)
+- [Wilddog野狗](https://www.wilddog.com/)
+- [融云即时通讯云](http://www.rongcloud.cn/)
+- [环信即时通讯云](http://www.easemob.com/)
+- [讯飞开放平台](http://www.xfyun.cn/)
+- [FACE++人脸识别云](http://www.faceplusplus.com.cn/)
+- [七牛云存储](http://www.qiniu.com/)
+- [PING++支付SDK](https://pingxx.com/)
+- [涂图SDK-移动图像处理开发套件](http://tusdk.com/)
+- [表情大全开发者平台](http://www.stickersdk.com/)
+- [亲加通讯云](http://www.gotye.com.cn/)
+- [容联云通讯](http://www.yuntongxun.com/)
+- [爱开发](http://www.akaifa.com/)
+- [爱加密](http://www.ijiami.cn/ )
+- [极光推送](https://www.jpush.cn/)
+- [小米消息推送](http://dev.xiaomi.com/doc/?page_id=1670)
+- [友盟推送](http://www.umeng.com/push)
+- [个推推送](http://www.igetui.com/)
+- [有推推送](http://dev.10086.cn/aoi/index.jsp)
+- [百度云推送](http://developer.baidu.com/cloud/push)
+- [聚合数据](http://www.juhe.cn/)
+- [云测](http://crash.testin.cn/zh/)
  
- 
-###使用
+---
 
-1. 管理你的密码
-
-2. 使用 VirtualFileSystem.get()方法获取虚拟文件系统的单例
-
-3. 第一次运行时，需要创建一个虚拟文件磁盘所需的数据库文件：VirtualFileSystem.createNewContainer(dbFile, password)
-
-4. 用你的密码打开虚拟文件系统： VirtualFileSystem.mount(dbFile, password)
-
-5. 把代码中原本import的 java.io的类换成 info.guardianproject.iocipher的类， 比如：
-
-{% highlight java %}
-...
-	import info.guardianproject.iocipher.File;
-	import info.guardianproject.iocipher.FileOutputStream;
-	import info.guardianproject.iocipher.FileReader;
-	import info.guardianproject.iocipher.IOCipherFileChannel;
-	import info.guardianproject.iocipher.VirtualFileSystem;
-	import java.io.FileNotFoundException;
-	import java.io.IOException;
-	import java.io.InputStream;
-	import java.nio.channels.Channels;
-	import java.nio.channels.ReadableByteChannel;
-{% endhighlight %}
-
-
-###源码
-
-[https://github.com/guardianproject/IOCipher](https://github.com/guardianproject/IOCipher)
-
-###Demo
-
-1. 测试例子: [https://github.com/guardianproject/IOCipherTests](https://github.com/guardianproject/IOCipherTests)
-2. 简单的文件管理的例子: [https://github.com/guardianproject/IOCipherExample](https://github.com/guardianproject/IOCipherExample)
-3. 简单的测试: [https://github.com/guardianproject/IOCipherThreadTest](https://github.com/guardianproject/IOCipherThreadTest)
-4. 核心库: [https://github.com/guardianproject/libsqlfs](https://github.com/guardianproject/libsqlfs)
-
-###要点
-
-1. 当前版本只能在同一个APP中打开一个虚拟文件磁盘
-2. 使用IOCipher最好是用单线程或者顺序访问。（线程不安全？）
-3. 多线程也是可以用的，但是在大量数据加载时会潜在一些不稳定的问题。
-4. VFS（Virtual File System） 现在采用 beginTransaction 和 completeTransaction 以优化性能。
-5. 现在还有一部分java.io的方法还不支持: vectored I/O, memory-mapped files。（目前我只发现不能直接用file方法读取一些文件到其他功能中，比如MediaPlayer、pdf播放器等）
-
-###问题
-
-1. 文件不能超过4GB大小
-2. 没有用户、群组和权限的概念（只有当前APP通过密码可以访问VFS）
-3. 在极其繁重且为同步加载的过程中有可能会出现崩溃现象
-4. [其他问题](https://dev.guardianproject.info/projects/iocipher/issues)
-
-详细内容可进一步去官网查阅相关资料~ **[IOCipher官网链接](https://guardianproject.info/code/iocipher/)**
+##分享
+ 如果你也有好的安卓开发资源，希望也能分享一下~
+【email: fjytlibin@qq.com】
 
  
