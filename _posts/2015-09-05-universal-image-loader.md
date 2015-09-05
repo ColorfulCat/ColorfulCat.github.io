@@ -11,8 +11,6 @@ categories: Android
 {:toc}
 
  
-  
-
 ###需求
  
 在安卓开发过程中和图片打交道的时候难免会遇到以下几个情况：
@@ -36,18 +34,14 @@ categories: Android
 ...
 
 	public class MyApplication extends Application {  
-	public void onCreate() {  
-	    super.onCreate();  
-	    initImageLoader(getApplicationContext());  
-	}  
-	
-	public static void initImageLoader(Context context) {  
-        ImageLoaderConfiguration config = new 	ImageLoaderConfiguration.Builder(context)  
-                .threadPriority(Thread.MAX_PRIORITY).deny	CacheImageMultipleSizesInMemory()  
-                .diskCacheFileNameGenerator(new 		Md5FileNameGenerator()).tasksProcessingOrder(QueueProcess	ingType.LIFO)  
-                .writeDebugLogs() // Remove for release 	app  
-	                .build();  
-	        ImageLoader.getInstance().init(config);  
+		public void onCreate() {  
+		    super.onCreate();  
+		    initImageLoader(getApplicationContext());  
+		}  
+		
+		public static void initImageLoader(Context context) {  
+    	    ImageLoaderConfiguration config = new ImageLoaderConfiguration.Builder(context).threadPriority(Thread.MAX_PRIORITY).denyCacheImageMultipleSizesInMemory().diskCacheFileNameGenerator(new Md5FileNameGenerator()).tasksProcessingOrder(QueueProcessingType.LIFO).writeDebugLogs().build();  
+		    ImageLoader.getInstance().init(config);  
 	    }  
   
 	}  
