@@ -7,7 +7,8 @@ categories: Git
 
 ---
 
- 
+可以右键保存图片后放大看哦~
+
 ![Git指令大全图](http://7xki8q.com1.z0.glb.clouddn.com/git_command.png)
 
 
