@@ -16,7 +16,7 @@ permalink: /:year/:month/:day/:title/
 # Build settings
 markdown: kramdown
 
-url: http://www.colorfulcat.xyz/
+# url: http://www.colorfulcat.xyz/
 
 # highlight
 # 本地用rouge, github上用pygments
