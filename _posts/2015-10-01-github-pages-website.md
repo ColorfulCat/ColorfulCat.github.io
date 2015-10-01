@@ -25,9 +25,10 @@ categories: Git web
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 首先，你需要准备好以下几个东西：
-- 属于你自己的Github账号[https://github.com/](https://github.com/)
-- 了解Github的基础使用方法，并创建一个仓库（repository）
-- 适宜的工作环境，舒展以下筋骨，然后还可以带上耳机听点Rock & Roll
+
+1. 属于你自己的Github账号[https://github.com/](https://github.com/)
+2. 了解Github的基础使用方法，并创建一个仓库（repository）
+3. 适宜的工作环境，舒展以下筋骨，然后还可以带上耳机听点Rock & Roll
 
 
 ##步骤
