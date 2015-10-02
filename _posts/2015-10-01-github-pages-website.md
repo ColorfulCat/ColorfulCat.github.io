@@ -38,13 +38,16 @@ categories: Git web
 4. 如果是你已经存在的仓库，移除现有仓库gh-pages分支的所有内容：`git rm -rf .`
 5. 创建你的网页文件，并提交到gh-pages分支（要有个index.html文件，提交代码如下）
 
-```
+
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 	echo "My Page" > index.html
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 	git add index.html
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 	git commit -a -m "First pages commit"
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 	git push origin gh-pages
-	
-```
+
 
 
 ##完工
