@@ -17,7 +17,7 @@ categories: Git web
 ##初衷
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-最近一直在折腾前端的东西，然后还把自己平时收集的Android开发过程中使用到的一些资源博文的导航做成了一个静态站点（用的新浪SAE）发布了出去（[AndroidCat](http://www.androidcat.com/)）, 得到了一些小伙伴的认同，也有一些小伙伴说也想搭建一个自己的网站，于是我想着把Github这个（全球最大的同性交友网站lol）拿出来装个逼:免费，快速，搞的定！，，，于是就开始写这篇博文~~~
+最近一直在折腾前端的东西，然后还把自己平时收集的Android开发过程中使用到的一些资源博文的导航做成了一个静态站点（用的新浪SAE）发布了出去（[AndroidCat](http://www.androidcat.com/)）, 得到了一些小伙伴的认同，也有一些小伙伴说也想搭建一个自己的网站，于是我想着把Github这个（全球最大的同性交友网站lol）拿出来装个逼:免费，快速，搞的定！，，，于是就开始写这个玩意儿~~~
 
 
 ##准备
@@ -51,8 +51,11 @@ categories: Git web
 
 ##完工
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 好了，打开你的浏览器，在地址栏输入`http(s)://<username>.github.io/<projectname>`，然后按下键盘上的回车，看看是不是得到了你的网页效果啦~~~
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+接下来就是去完善你的网页代码啦~~~ 加油吧~~~
 
 ##真相
 
