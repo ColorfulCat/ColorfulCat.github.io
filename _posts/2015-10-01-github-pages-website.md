@@ -47,7 +47,7 @@ categories: Git web
 
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 	git commit -a -m "First pages commit"
-	
+
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 	git push origin gh-pages
 
@@ -58,7 +58,9 @@ categories: Git web
 好了，打开你的浏览器，在地址栏输入`http(s)://<username>.github.io/<projectname>`，然后按下键盘上的回车，看看是不是得到了你的网页效果啦~~~
 
 
+##真相
+
+哎，其实会用Github的话，其实就一个简单，看看下面的链接就搞定了~
 
 [Github官方说明指南](https://help.github.com/articles/creating-project-pages-manually/)
 
-。。。。正在写，别着急~~~~~
