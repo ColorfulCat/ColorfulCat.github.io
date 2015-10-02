@@ -39,17 +39,13 @@ categories: Git web
 5. 创建你的网页文件，并提交到gh-pages分支（要有个index.html文件，提交代码如下）
 
 
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-	echo "My Page" > index.html
+		echo "My Page" > index.html
 
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-	git add index.html
+		git add index.html
 
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-	git commit -a -m "First pages commit"
+		git commit -a -m "First pages commit"
 
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-	git push origin gh-pages
+		git push origin gh-pages
 
 
 
