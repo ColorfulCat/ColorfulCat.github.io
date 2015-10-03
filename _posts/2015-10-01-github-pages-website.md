@@ -14,13 +14,13 @@ categories: Git web
 
 
 
-##初衷
+###初衷
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 最近一直在折腾前端的东西，然后还把自己平时收集的Android开发过程中使用到的一些资源博文的导航做成了一个静态站点（用的新浪SAE）发布了出去（[AndroidCat](http://www.androidcat.com/)）, 得到了一些小伙伴的认同，也有一些小伙伴说也想搭建一个自己的网站，于是我想着把Github这个（全球最大的同性交友网站lol）拿出来装个逼:免费，快速，搞的定！，，，于是就开始写这个玩意儿~~~
 
 
-##准备
+###准备
 
 
 首先，你需要准备好以下几个东西：
@@ -30,7 +30,7 @@ categories: Git web
 3. 适宜的工作环境，舒展以下筋骨，然后还可以带上耳机听点Rock & Roll~
 
 
-##步骤
+###步骤
 
 1. 打开命令行，将你创建好的仓库克隆到本地： `git clone github.com/user/repository.git`
 2. 进入你的仓库：`cd repository`
@@ -40,24 +40,21 @@ categories: Git web
 
 
 		echo "My Page" > index.html
-
 		git add index.html
-
 		git commit -a -m "First pages commit"
-
 		git push origin gh-pages
 
 
 
-##完工
+###完工
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-好了，打开你的浏览器，在地址栏输入`http(s)://<username>.github.io/<projectname>`，然后按下键盘上的回车，看看是不是得到了你的网页效果啦~~~
+好了，打开你的浏览器，在地址栏输入`http(s)://<username>.github.io/<repository_name>`，然后按下键盘上的回车，看看是不是得到了你的网页效果啦~~~
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 接下来就是去完善你的网页代码啦~~~ 加油吧~~~
 
-##真相
+###真相
 
 哎，其实会用Github的话，其实就一个简单，看看下面的链接就搞定了~
 
