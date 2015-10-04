@@ -19,4 +19,9 @@ icon: glyphicon-heart
 
 Comment below to exchange link with me.  
 
+
+PS: 
+
+<span>Jekyll theme by by <a href="https://github.com/gaohaoyang">gaohaoyang</a></span>
+
 ---
