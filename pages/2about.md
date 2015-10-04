@@ -8,9 +8,12 @@ icon: glyphicon-heart
 ### 关于我
 
 >Author: 大花猫（Devis Lee）
+
 >Gender: 直男
+
 >Location: 上海浦东
->Skill: Android、HTML5、JavaScript……
+
+>Skill: Android、HTML5、JavaScript、iOS、wechat……
 
 
 
