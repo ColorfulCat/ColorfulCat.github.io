@@ -12,12 +12,15 @@ categories: Android
 
  
 ## AndroidCat
->Android开发相关的网址导航 (*排名顺序不分先后*)
->希望有其它好资源的小伙伴帮忙一起分享一下~  
+
+Android开发相关的网址导航 (*排名顺序不分先后*)
+希望有其它好资源的小伙伴帮忙一起分享一下~  
+
+
+内容会更新在Github上： [https://github.com/ColorfulCat/AndroidGuide](https://github.com/ColorfulCat/AndroidGuide)
 
 
 ---
-
 ### 1. 资源文档
 - [AndroidDevTools](http://www.androiddevtools.cn/) 
 - [Android官方文档](http://developer.android.com/intl/zh-cn/develop/index.html)
@@ -27,9 +30,12 @@ categories: Android
 - [CodePath Android Cliffnotes](http://guides.codepath.com/android)
 - [codota](http://www.codota.com/)
 - [Careercup面试题大全](http://www.careercup.com/)
+- [eoe WIKI百科](http://wiki.eoeandroid.com/)
+- [Android Design设计指南中文版](http://adchs.github.io)
+- [Material Design 中文版](http://design.1sters.com)
+
 
 ---
-
 ### 2. 技术社区
 - [eoe Android社区](http://www.eoeandroid.com/)
 - [APKBUS安卓巴士](http://www.apkbus.com/)
@@ -41,16 +47,15 @@ categories: Android
 - [V2EX](http://www.v2ex.com/go/android)
 - [51CTO技术论坛](http://bbs.51cto.com/forum-291-1.html)
 - [干货集中营](http://gank.io/)
-- [掘金](http://gold.xitu.io/#/entries/browse/android)
+- [掘金](http://gold.xitu.io/#/tag/Android)
 - [SegmentFault](http://segmentfault.com/)
 
----
 
+---
 ### 3. 技术教程
 - [codeKK](http://codekk.com/open-source-project-analysis)
 - [开发技术前线](http://www.devtf.cn/?cat=2)
 - [美团技术团队](http://tech.meituan.com/)
-- [阿里核心系统团队博客](http://csrd.aliapp.com/)
 - [Facebook技术](https://code.facebook.com/)
 - [OPEN开发经验库](http://www.open-open.com/lib/list/177)
 - [AndroidWeekly](http://www.androidweekly.cn/)
@@ -60,28 +65,38 @@ categories: Android
 - [麦子学院](http://www.maiziedu.com/course/android/)
 - [Android学习网](http://android-study.com/)
 - [爱编程](http://www.w2bc.com/)
+- [51CTO](http://edu.51cto.com)
+- [牛客网](http://www.nowcoder.com)
 - [Mars的Android开发视频教程](http://mars.apkbus.com/)
 - [老罗的Android开发视频教程](http://luo.apkbus.com/)
+- [如何自学Android编程-知乎](http://www.zhihu.com/question/26417244)
+
 
 ---
-
 ### 4. 开源代码
+
 - [23Code](http://www.23code.com/)
 - [泡在网上的日子](http://www.jcodecraeer.com/)
 - [GitHub优秀开源项目](http://blog.csdn.net/shulianghan/article/details/18046021)
 - [代码家](http://blog.daimajia.com/android-library-collection/)
 - [Code4App](http://a.code4app.com/category)
-- [IT蓝豹](http://www.itlanbao.com/)
 - [Square Open Source](http://square.github.io/#android)
 - [腾讯开源](http://code.tencent.com/index.html)
 - [android-open-project](https://github.com/Trinea/android-open-project)
 - [Android Arsenal](https://android-arsenal.com/free)
 - [APKBUS源码](http://www.apkbus.com/plugin.php?id=codesrc&modo=all&fid=388)
+- [TaoCode](http://code.taobao.org/)
+- [appance](http://www.appance.com/category/android/)
+- [AndroidElementals](https://github.com/cesards/AndroidElementals)
+- [Android Libraries and Resources](http://alamkanak.github.io/android-libraries-and-resources/)
+- [Android 开源项目源码解析](https://github.com/android-cn/android-open-project-analysis)
+- [awesome-android](https://github.com/snowdream/awesome-android)
 
 
 ---
-
 ### 5. 大神博客
+- [android-dev-cn国内博主](https://github.com/android-cn/android-dev-cn)
+- [android-dev-com国外博主](https://github.com/android-cn/android-dev-com)
 - [Trinea](http://www.trinea.cn/)
 - [张鸿洋](http://blog.csdn.net/lmj623565791)
 - [任玉刚](http://blog.csdn.net/singwhatiwanna/)
@@ -100,9 +115,15 @@ categories: Android
 - [徐宜生](http://blog.csdn.net/eclipsexys)
 - [阮一峰](http://www.ruanyifeng.com/blog/)
 - [DK](http://dk-exp.com/archives/page/2/)
+- [脉脉不得语](http://www.inferjay.com)
+- [技术小黑屋](http://droidyue.com)
+- [Android Cool Posts](http://greenrobot.me)
+- [zmywly8866](http://zmywly8866.github.io)
+- [bongizmo](http://www.bongizmo.com/blog/)
+- [Cyril Mottier](http://cyrilmottier.com)
+
 
 ---
-
 ### 6. 开发框架
 - [xUtils（快速）](https://github.com/wyouflf/xUtils)
 - [Afinal（快速）](https://github.com/yangfuhai/afinal)
@@ -130,7 +151,6 @@ categories: Android
 
 
 ---
-
 ### 7. 技术资讯
 - [创业邦](http://www.cyzone.cn/)
 - [36氪](http://36kr.com/)
@@ -142,8 +162,8 @@ categories: Android
 - [好东西论坛](http://forum.memect.com/)
 - [DEMO8](http://www.demo8.com/)
 
----
 
+---
 ### 8. 开发服务
 - [友盟SDK](http://www.umeng.com/)
 - [DevStore开发商店](http://www.devstore.cn/)
@@ -175,7 +195,9 @@ categories: Android
 ---
 
 ##分享
+
  如果你也有好的安卓开发资源，希望也能分享一下~
+ 请在下方评论，或者邮件我~
 【email: fjytlibin@qq.com】
 
  
