@@ -20,7 +20,7 @@ icon: glyphicon-heart
  
 ---
 
-#### 友情链接
+### 友情链接
 
 - [帕特里克](http://dev2patrick.com/) 
 - [一明emin](http://fanofdemo.github.io/) 
@@ -28,6 +28,7 @@ icon: glyphicon-heart
 
 Comment below to exchange link with me.  
 
+---
 
 PS: 
 
