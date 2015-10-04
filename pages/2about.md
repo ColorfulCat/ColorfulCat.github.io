@@ -7,7 +7,16 @@ icon: glyphicon-heart
 
 ### 关于我
 
->我是大花猫~
+>Author: 大花猫（Devis Lee）
+>Gender: 直男
+>Location: 上海浦东
+>Skill: Android、HTML5、JavaScript……
+
+
+
+- Github: [https://github.com/ColorfulCat](https://github.com/ColorfulCat)
+- CSDN: [http://blog.csdn.net/watt520](http://blog.csdn.net/watt520)
+- 程序员客栈: [http://www.proginn.com/wo/15918](http://www.proginn.com/wo/15918)
  
 ---
 
