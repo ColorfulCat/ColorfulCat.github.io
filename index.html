@@ -65,6 +65,12 @@ layout: default
       <div class="categories-list-header" align="center">
         欢迎光临~
       </div>
+
+      {% for category in site.categories %}
+        <a href="javascript:;" class="categories-list-item" cate="{{ category | first }}">
+          {{ category | first }} <span class="my-badge">{{ category | last | size }}</span>
+        </a>
+      {% endfor %}
       
     </div>
   </div>
