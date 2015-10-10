@@ -22,6 +22,41 @@ layout: default
               <span class="">{{ post.date | date: "%b %-d, %Y" }}</span>
             </a>
           {% endfor %}
+
+          {% for post in paginator.posts %}
+          <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
+            <div class="post-list-item">
+              <span class="entry-date date published">
+              <time datetime="{{ post.date | date_to_xmlschema }}">
+                <font color="#aaaaaa">    {{ post.date | date: "%Y-%m-%d" }} By 张涛</font>
+              </time>
+              </span>
+
+             <!--  <h2>
+                {% if post.code %}
+                  <font color="#AE57A4">技术</font>:
+                  <font color="#333333">{{ post.title }}</font>
+                {% endif %}
+                {% if post.stickies %}
+                  <font color="#FF8000">随笔</font>:
+                  <font color="#333333">{{ post.title }}</font>
+                {% endif %}
+                {% if post.manager %}
+                  <font color="#0066CC">管理</font>:
+                  <font color="#333333">{{ post.title }}</font>
+                {% endif %}
+                {% if post.english %}
+                  <font color="#BB3D00">英语</font>:
+                  <font color="#333333">{{ post.title }}</font>
+                {% endif %}
+              </h2> -->
+
+              {% if post.description %}
+                <p><font color="#666666"> {{ post.description }} </font></p>
+              {% endif %}
+            </div>
+          </a>
+        {% endfor %}
         </div>
         <!-- <div class="posts-in-categories"> -->
         {% for category in site.categories %}
