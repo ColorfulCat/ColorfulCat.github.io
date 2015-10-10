@@ -4,7 +4,7 @@ layout: default
 <div class="row">
   <div id="myArticle" class="col-sm-9">
     <div class="post-area post">
-      <header>
+      <header align="center">
         <h1>{{ page.title }}</h1>
         <p>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
       </header>
@@ -12,7 +12,7 @@ layout: default
       <article>
 
         本文原创，转载请注明地址：<a href="http://www.colorfulcat.xyz{{ page.url }}">http://www.colorfulcat.xyz{{ page.url }}</a><br>
-
+        <br>
         {{content}}
       </article>
       <hr>
