@@ -28,7 +28,7 @@ layout: default
             <div class="post-list-item">
               <span class="entry-date date published">
               <time datetime="{{ post.date | date_to_xmlschema }}">
-                <font color="#aaaaaa">    {{ post.date | date: "%Y-%m-%d" }} By 张涛</font>
+                <font color="#aaaaaa"> {{ post.date | date: "%Y-%m-%d" }} </font>
               </time>
               </span>
 
@@ -51,8 +51,8 @@ layout: default
                 {% endif %}
               </h2> -->
 
-              {% if post.description %}
-                <p><font color="#666666"> {{ post.description }} </font></p>
+              {% if post.excerpt %}
+                <p><font color="#666666"> {{ post.excerpt }} </font></p>
               {% endif %}
             </div>
           </a>
