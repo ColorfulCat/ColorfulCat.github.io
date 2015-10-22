@@ -60,3 +60,5 @@ categories: Git web
 
 [Github官方说明指南](https://help.github.com/articles/creating-project-pages-manually/)
 
+顺便发一个[如何绑定自己的域名](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/)
+
