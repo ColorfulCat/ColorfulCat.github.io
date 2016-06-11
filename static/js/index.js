@@ -6,6 +6,8 @@ $(document).ready(function() {
     categoryDisplay();
     generateContent();
     backToTop();
+    //TODO 暂时做个重定向到AndroidCat
+    self.location = "http://androidcat.com/";
 });
 
 /**
